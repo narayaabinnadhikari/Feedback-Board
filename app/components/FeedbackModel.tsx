@@ -79,7 +79,7 @@ export default function FeedbackModal({ isOpen, onClose, onSubmit }: FeedbackMod
           
           <button
             type="submit"
-            className="w-full text-xl bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
+            className="w-full font-bold bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
           >
             Create Feedback
           </button>
@@ -87,7 +87,7 @@ export default function FeedbackModal({ isOpen, onClose, onSubmit }: FeedbackMod
 
       
         <button
-          className="mt-4 w-full text-xl bg-red-400 py-2 rounded hover:bg-gray-400"
+          className="mt-4 w-full font-bold bg-red-400 py-2 rounded hover:bg-gray-400"
           onClick={onClose}
         >
           Cancel

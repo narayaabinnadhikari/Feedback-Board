@@ -1,0 +1,9 @@
+[
+    {
+  "id": 1,
+  "title": "Sample Task",
+  "description": "A short description of this task.",
+  "status": "open",
+  "upvoteCount": 0
+}
+]
